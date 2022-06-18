@@ -1,0 +1,82 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-width: 16rem;
+}
+
+.formAddTask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -1.5rem 0.5rem 0 0.5rem;
+  width: 46rem;
+}
+
+.containerContent {
+  margin: 4rem auto 1.5rem;
+  max-width: 48rem;
+  width: 100%;
+  min-width: 16rem;
+}
+
+.tasksWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 1.5rem;
+}
+
+.progress {
+  font-size: 0.875rem;
+  color: var(--blue-200);
+  line-height: 1.4;
+}
+
+.headerWrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0.5rem;
+}
+
+.done {
+  font-size: 0.875rem;
+  color: var(--purple-100);
+}
+
+.Counter {
+  width: 1.5rem;
+  height: 1.2rem;
+  padding: 0.125rem 0.5rem;
+  margin-left: 0.5rem;
+  background-color: var(--gray-400);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Counter span {
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.CounterDoneTasks {
+  width: 3.25rem;
+  height: 1.2rem;
+  padding: 0.125rem 0.5rem;
+  margin-left: 0.5rem;
+  background-color: var(--gray-400);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CounterDoneTasks span {
+  color: var(--gray-100);
+  font-size: 0.73rem;
+  font-weight: bold;
+}

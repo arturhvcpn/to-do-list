@@ -1,0 +1,10 @@
+.header {
+  background: var(--gray-700);
+  height: 200px;
+  width: 100%;
+  min-width: 16rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

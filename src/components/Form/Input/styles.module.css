@@ -1,0 +1,15 @@
+.inputTask {
+  width: 100%;
+  height: 3.375rem;
+
+  background: var(--gray-500);
+  color: var(--gray-100);
+
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+
+  padding: 1rem;
+
+  resize: none;
+  line-height: 1.6;
+}
